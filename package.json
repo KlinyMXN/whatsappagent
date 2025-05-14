@@ -1,20 +1,26 @@
 {
+  "name": "whatsapp-gemini-agent",
+  "version": "1.0.0",
+  "description": "Agente de ventas para WhatsApp usando Gemini AI",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "whatsapp",
+    "gemini",
+    "ai",
+    "chatbot",
+    "sales-agent"
+  ],
+  "author": "Tu Nombre o Nombre de Empresa",
+  "license": "ISC",
   "dependencies": {
     "@google/generative-ai": "^0.24.1",
     "axios": "^1.9.0",
     "body-parser": "^2.2.0",
     "dotenv": "^16.5.0",
-    "express": "^5.1.0"
-  },
-  "name": "whatsappagent",
-  "version": "1.0.0",
-  "main": "app.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "description": ""
+    "express": "^4.19.2"
+  }
 }
